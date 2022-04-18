@@ -452,6 +452,10 @@ header {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+
+.portfolio-text {
+  color: var(--primary-text-color);
+}
 /* footer */
 
 .section-footer {
@@ -559,8 +563,8 @@ header {
   fill: #afb1b8;
 }
 
-.socialmedia-icon-item:hover .socialmedia-icon,
-.socialmedia-icon-item:focus .socialmedia-icon {
+.socialmedia-icon-link:hover .socialmedia-icon,
+.socialmedia-icon-link:focus .socialmedia-icon {
   fill: var(--second-accent-color);
 }
 .footer-social-media .socialmedia-icon {
