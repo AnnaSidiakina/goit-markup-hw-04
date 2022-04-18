@@ -554,6 +554,7 @@ header {
 .socialmedia-icon-link:hover,
 .socialmedia-icon-link:focus {
   background-color: var(--accent-color);
+  outline: none;
 }
 .socialmedia-icon {
   display: block;
